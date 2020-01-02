@@ -1,2 +1,2 @@
 # Angelo's Portfolio
-## Designed and Coded with love 🤗 By @angeloDiepe
+## Designed and Coded with love ❤️ By @angeloDiepe
