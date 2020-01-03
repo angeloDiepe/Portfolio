@@ -36,8 +36,8 @@ const Nav = (props) => {
 				<li className="nav-list-item"><a href="#" className="nav-link-item">SKILLS</a></li>
 				<li className="nav-list-item"><a href="#" className="nav-link-item">PORTFOLIO</a></li>
 				<li className="nav-list-item"><a href="#" className="nav-link-item">CONTACT</a></li>
+				<li className="nav-list-item"><a href="#" id="blog-link" className="nav-link-item">POSTS</a></li>
 			</ul>
-			<button id="blog-link">POST</button>
 		</div>
 	</div>
 	)
