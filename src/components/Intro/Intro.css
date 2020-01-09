@@ -43,7 +43,7 @@
 	height: 100px;
 }
 #hello{
-	font-size: 20px;
+	font-size: 24px;
 	font-weight: bold;
 }
 #name{
@@ -51,8 +51,8 @@
 }
 .other{
 	font-weight: 300;
-	font-size: 14px;
-	height: 30px;
+	font-size: 16px;
+	height: 40px;
 	padding-top: 10px;
 	text-align: center;
 }
@@ -61,7 +61,7 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: 120px;
+	width: 124px;
 	height: 48px;
 	margin:auto;
 	border-radius: 25px;
@@ -73,13 +73,15 @@
 	letter-spacing: 0;
 	color: #EEEEEE;
 	text-decoration: none;
-	font-size: 14px;
+	font-size: 15px;
+	position: relative;
+	top: 10px;
 }
 #download-resume:hover{
 	background-color:rgba(255,255,255,0.9);
 	color: #5354ed; 
 }
-#me{
+#bubble{
 	background-image:url("../../assets/angelosquare.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
@@ -199,7 +201,7 @@
 		margin-top: 300px;
 		font-size: 18px;
 	}
-	#me{
+	#bubble{
 	background-image:url("../../assets/angelosquare.jpg");
 	background-position: center;
 	background-repeat: no-repeat;

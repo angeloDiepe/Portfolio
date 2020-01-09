@@ -2,7 +2,7 @@ import React from 'react';
 import SocialMedia from '../SocialMedia/SocialMedia.js'
 import "./Intro.css";
 import Resume from "../../assets/NOUBISSIE DIEPE ANGE ODILON CV.pdf";
-import me from "../../assets/me.svg";
+import bubble from "../../assets/bubble.svg";
 
 
 export default class Intro extends React.Component {
@@ -79,7 +79,7 @@ export default class Intro extends React.Component {
 						<a href={Resume} id="download-resume">Get Resume</a>
 					</div>
 				</div>
-				<div id="me" className=" animated bounce infinite" style={{backgroundImage:`url(${me}`}}>ME</div>
+				<div id="bubble" className=" animated bounce infinite" style={{backgroundImage:`url(${bubble}`}}>ME</div>
 			</div>
 		);
 	}
