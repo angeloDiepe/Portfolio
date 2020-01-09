@@ -11,8 +11,8 @@ const Nav = (props) => {
 		let hamburger = document.querySelector(".hamburger");
 
 		navListWrapper.classList.toggle("open");
-		toggling(hamburger,"open-hamburger")
 		toggling(navListWrapper.children[0],"fade")
+		toggling(hamburger,"open-hamburger")
 	}
 	return (
 		<div className="nav-container">

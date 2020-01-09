@@ -72,7 +72,7 @@ export default class Intro extends React.Component {
 					</div>
 					<div id="intro-text-resume-block">
 						<p id="intro-text">
-						<span className="typewritter" id="hello">HELLO, I'M <span className="typewritter" id="name">ANGELO</span></span>
+						<span className="typewritter" id="hello">HELLO, <span id="break">I'M <span className="typewritter" id="name">ANGELO</span></span></span>
 						<span className="typewritter" className="other">FULLSTACK JAVASCRIPT DEVELOPER <br/> <span className="typewritter" className="other" style={{fontStyle:"italic"}}>{this.state.show}</span>
 						</span>
 						</p>
