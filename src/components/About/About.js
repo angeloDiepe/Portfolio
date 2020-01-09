@@ -19,11 +19,6 @@ const About = (props) => {
 				Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
 				Mollitia sequi illum labore quia quasi fugiat, 
 				dolore saepe quam molestias maxime? Natus architecto debitis odit quos,
-				unde voluptates, ipsam dolores quod.
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-				Mollitia sequi illum labore quia quasi fugiat, 
-				dolore saepe quam molestias maxime? Natus architecto debitis odit quos,
-				unde voluptates, ipsam dolores quod.
 				</p>
 				<img src={angle} alt="" className="angle" style={{transform:"rotate(180deg)",bottom:"0",left:"0"}}/>
 				</p>	
