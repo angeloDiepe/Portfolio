@@ -1,24 +1,18 @@
-import React,{useEffect} from 'react';
+import React from 'react';
 import "./Nav.css";
 import logoMobile from "../../assets/logo_mobile.svg";
 
 const Nav = (props) => {
-	const toggleHaburger = (el) =>{
-		Array.from(el.children).forEach(span => span.classList.toggle("open-hamburger"))
-	}
-	const toggleNavList = (el) =>{
-		el.classList.toggle("open");
-		Array.from(el.children[0].children).forEach(li => li.classList.toggle("fade"))
+	const toggling = (el,className) =>{
+		Array.from(el.children).forEach(e => e.classList.toggle(className))
 	}
 	const showNav = () =>{
 		let navListWrapper = document.querySelector(".nav-list-wrapper");
 		let hamburger = document.querySelector(".hamburger");
-		toggleHaburger(hamburger)
-		toggleNavList(navListWrapper)
 
-		// navListWrapper.classList.toggle("open");
-		// Array.from(navListWrapper.children).forEach(li => li.classList.toggle("fade"))
-		// Array.from(hamburger.children).forEach(span => span.classList.toggle("open-hamburger"))
+		navListWrapper.classList.toggle("open");
+		toggling(hamburger,"open-hamburger")
+		toggling(navListWrapper.children[0],"fade")
 	}
 	return (
 		<div className="nav-container">
