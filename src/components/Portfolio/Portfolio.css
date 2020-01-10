@@ -1,0 +1,17 @@
+.portfolio-container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center; 
+	position: relative;
+}
+#portfolio-image-title{
+	height: 64px;
+}
+#portfolio-title{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding:30px 0;
+}

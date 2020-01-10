@@ -1,6 +1,7 @@
 import React from 'react';
 import SkillBox from "../SkillBox/SkillBox.js";
 import skill from "../../assets/skill.svg";
+import bubble from "../../assets/bubble.svg";
 import "./Skills.css";
 
 const Skills = (props) => {
@@ -28,6 +29,7 @@ const Skills = (props) => {
 					</div>
 				</div>
 			</div>
+			<div id="bubble" className=" animated bounce infinite" style={{backgroundImage:`url(${bubble}`}}>WORK</div>
 		</div>
 		)
 }

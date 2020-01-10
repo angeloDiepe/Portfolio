@@ -1,0 +1,164 @@
+.project-container{
+	height: auto;
+	width: 100%;
+	min-width: 360px;
+	max-width: 640px;
+	min-height: 415px;
+	max-height: 830px;
+	border: 0.25px solid #2222220D;
+}
+.project-wrapper{
+	display: flex;
+	flex-direction: column-reverse;
+}
+.image-container{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	box-shadow: -3px 5px 25px #22222226;
+}
+.image{
+	width: 100%;
+	height: 100%;
+}
+.gradient{
+	background: transparent linear-gradient(52deg, #5354ED 0%, #42B0FB80 38%, #5354ED08 100%) 0% 0% no-repeat padding-box;
+	opacity: 1;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: calc(100%);
+	width: 100%;
+	border-radius: 2px;
+}
+.about-project{
+	background: #fff 0% 0% no-repeat padding-box;
+	box-shadow: 0px 2px 5px #0000000D;
+	border-radius: 1px;
+	opacity: 1;
+	position: relative;
+	top: -115px;
+	width: 82.5%;
+	min-width: 300px;
+	height: auto;
+	min-height:200px;
+	margin:auto;
+	padding:17.5px 25px;
+	color: #222;
+	z-index: 1;
+}
+.project-name{
+	font-size: 24px;
+	margin-bottom: 5px;
+}
+.brief,.techs{
+	font-size: 16px;
+	font-weight: lighter;
+	margin-bottom: 5px;
+}
+.bold{
+	font-weight: 450;
+}
+.project-links{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 12px;
+	font-weight: 450;
+	margin-top: 22.5px;
+}
+.visit{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	width: 72px;
+	height: 36px;
+	background: #5354ED 0% 0% no-repeat padding-box;
+	box-shadow: 0px 3px 10px #22222226;
+	border-radius: 24px;
+	opacity: 1;
+	font: Regular 12px/16px Roboto Mono;
+	letter-spacing: 0;
+	color: #EEEEEE;
+	opacity: 1;
+	}
+	.code{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	width: 72px;
+	height: 36px;
+	background: #fff 0% 0% no-repeat padding-box;
+	box-shadow: 0px 3px 10px #22222226;
+	border-radius: 24px;
+	opacity: 1;
+	font: Regular 12px/16px Roboto Mono;
+	letter-spacing: 0;
+	color: #5354ed;
+	opacity: 1;
+	}
+@media only screen and (min-width: 1175px) {
+	.project-container{
+		min-width: 100%;
+		min-height: auto;
+		display: flex;
+		justify-content: center;
+		margin:25px 0;
+	}
+	.project-wrapper{
+		display: grid;
+		grid-template-columns: 25% 70%;
+		grid-template-rows: 100%;
+		height: 100vh;
+		width: 100%;
+		padding: 40px 0;
+		justify-content: center;
+		align-items: center;
+	}
+	.image-container{
+		width: 920px;
+		height: 750px;
+		background-color: blue;
+		justify-self:flex-end;
+	}
+	.about-project{
+		height: 100%;
+		width: calc(100% + 100px);
+		background-color: transparent;
+		position: static;
+		display: grid;
+		grid-template-rows: 40% 40% 20%;
+		grid-template-columns: 100%;
+		align-items: flex-start;
+	}
+	.project-name{
+		font-size: 148px;
+		display: grid;
+		grid-template-columns: 67% 25%;
+		grid-template-rows: 100%;
+		height: 320px;
+		align-items: flex-end;
+	}
+	.second,.first{
+		display: block;
+	}
+	.first{
+		align-self: flex-start;
+	}
+	.visit,.code{
+		width: 136px;
+		height: 44px;
+		font-size: 14px;
+	}
+	.project-desc{
+		margin-top: 40px;
+		font-size: 18px;
+	}
+	.brief,.techs{
+		line-height: 1.75;
+		font-size: 18px;
+	}
+}
