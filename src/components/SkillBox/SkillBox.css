@@ -1,0 +1,32 @@
+#skillbox-container{
+	text-align: center;
+}
+#skillbox-wrapper{
+	width: 100%;
+	max-width: 300px;
+	height: 250px;
+	background: #222222 0% 0% no-repeat padding-box;
+	box-shadow: 0px 3px 5px #000000FA;
+	border: 1px solid #22222240;
+	opacity: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin:auto;
+}
+#skillbox-wrapper-1{
+	letter-spacing: 0;
+	color: #CCCCCC;
+	text-align: center;
+}
+#title-skillbox,#lang-title{
+	padding:25px 0;
+	font-size: 18px;
+	font-weight: 450;
+}
+@media only screen and (min-width: 768px) {
+	#skillbox-wrapper{
+		height: 500px;
+		width: 300px;
+	}	
+}
