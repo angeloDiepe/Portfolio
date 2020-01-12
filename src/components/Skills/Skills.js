@@ -15,8 +15,8 @@ const Skills = (props) => {
 			<span id="skills-title"><img src={skill} alt="skill's section title" id="skills-image-title"/></span>
 			<div className="skills-wrapper-1">
 				<div className="skills-wrapper">
-				{skills.map(skill=>
-					<SkillBox skill={skill.lang} title={skill.title}>
+				{skills.map((skill,i)=>
+					<SkillBox skill={skill.lang} key={i} title={skill.title}>
 					</SkillBox>)
 				}
 				</div>

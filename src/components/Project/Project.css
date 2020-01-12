@@ -103,10 +103,11 @@
 @media only screen and (min-width: 1175px) {
 	.project-container{
 		min-width: 100%;
-		min-height: auto;
+		height: auto;
 		display: flex;
 		justify-content: center;
-		margin:25px 0;
+		border:none;
+		min-height: 100vh;
 	}
 	.project-wrapper{
 		display: grid;
@@ -114,7 +115,7 @@
 		grid-template-rows: 100%;
 		height: 100vh;
 		width: 100%;
-		padding: 40px 0;
+		padding: 60px 0;
 		justify-content: center;
 		align-items: center;
 	}
@@ -133,6 +134,7 @@
 		grid-template-rows: 40% 40% 20%;
 		grid-template-columns: 100%;
 		align-items: flex-start;
+		box-shadow: none;
 	}
 	.project-name{
 		font-size: 148px;

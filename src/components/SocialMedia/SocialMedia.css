@@ -4,6 +4,12 @@
 	align-items: center;
 	color: #5354ed;
 }
+#social-wrapper-1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #5354ed;
+}
 #text{
 	text-align: left;
 	font: Light 14px/19px Roboto Mono;

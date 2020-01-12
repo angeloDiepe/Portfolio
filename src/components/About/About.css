@@ -29,7 +29,7 @@
 	margin:auto;
 	text-align: center;
 	line-height: 30px;
-	font-size:calc( 2vh + 5px );
+	font-size:calc( 2vh + 2.5px );
 	border-left: 2px solid #5354ed;
 	border-right: 2px solid #5354ed;
 	padding: 0 30px;
