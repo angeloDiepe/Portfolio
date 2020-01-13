@@ -9,6 +9,9 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	position: fixed;
+	z-index: 10;
+
 }
 #nav-logo-wrapper{
 	width: 48px;

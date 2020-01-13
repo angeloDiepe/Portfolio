@@ -65,7 +65,8 @@ export default class Intro extends React.Component {
 	render() {
 		return (
 			<div className="intro-container">
-				<SocialMedia isFooter={false}/>
+				{this.props.children}
+				<div id="social-intro"><SocialMedia isFooter={false}/></div>	
 				<div id="intro-wrapper">
 					<div id="profile-wrapper">
 						<div id="profile-container"><span id="line-profile"></span></div>
