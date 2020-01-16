@@ -11,7 +11,7 @@ const Skills = (props) => {
 		{title:"Other Techs/Tools",lang:'GIT/GITHUB <br/> HEROKU <br/> NETLIFY <br/> POSTMAN <br/> JEST <br/> PHOTOSHOP <br/> ADOBE XD <br/> LINUX <br/> SSH <br/> NETWORK ADMINISTRATION <br/>'}
 	]
 	return (
-		<div className="skills-container">
+		<div id="skills-container">
 			<span id="skills-title"><img src={skill} alt="skill's section title" id="skills-image-title"/></span>
 			<div className="skills-wrapper-1">
 				<div className="skills-wrapper">
@@ -29,7 +29,6 @@ const Skills = (props) => {
 					</div>
 				</div>
 			</div>
-			<div id="bubble" className=" animated bounce infinite" style={{backgroundImage:`url(${bubble}`}}>WORK</div>
 		</div>
 		)
 }

@@ -11,7 +11,7 @@ const Project = ({name,brief,tech,image,link}) => {
 						<span className="second">{name[1]}</span>
 					</h1>
 					<div className="project-desc">
-						<p className="brief">{brief}</p>
+						<p className="brief" >{brief}</p>
 						<p className="techs"><span className="bold">Techs :</span> {tech} </p>
 					</div>
 					<div className="project-links">

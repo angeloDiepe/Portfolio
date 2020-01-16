@@ -1,4 +1,4 @@
-.about-container{
+#about-container{
 	display: flex;
 	background-color: white;
 	justify-content: center;
@@ -38,6 +38,9 @@
 }
 .angle{
 	display: none;
+}
+#about-body-content>a{
+	color: #5354ed;
 }
 @media only screen and (min-width: 900px) {
 	#about{

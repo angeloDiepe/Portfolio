@@ -1,4 +1,4 @@
-.skills-container{
+#skills-container{
 	height: auto;
 	width: 100%;
 	padding-bottom: 50px;
@@ -55,7 +55,7 @@
 	color: #00a7dc;
 }
 @media only screen and (min-width: 1000px) {
-	.skills-container{
+	#skills-container{
 		height: 100vh;
 	}
 	.skills-wrapper-1{

@@ -4,6 +4,7 @@ import touch from '../../assets/touch.svg'
 import love from '../../assets/love.svg'
 import send from '../../assets/send.svg'
 import logo_footer from '../../assets/logo_footer.svg'
+import top from '../../assets/top1.svg'
 import './Contact.css'
 
 const Contact = () => {
@@ -19,7 +20,6 @@ const Contact = () => {
 			}
 		}
 		e.classList.toggle(type);
-		console.log(e.classList)
 	}
 	return (
 		<div id="contact-container">
@@ -35,13 +35,13 @@ const Contact = () => {
 					</div>
 					<div className="input-container">
 						<div className="input-wrapper">
-							<input type="text" name="email" placeholder="Email" className="input-text" onBlur={(e)=>{toggle(e.currentTarget.parentNode.children[1],'decrease')}} onFocus={(e)=>toggle(e.currentTarget.parentNode.children[1],'increase')}/>
+							<input type="email" name="email" placeholder="Email" className="input-text" onBlur={(e)=>{toggle(e.currentTarget.parentNode.children[1],'decrease')}} onFocus={(e)=>toggle(e.currentTarget.parentNode.children[1],'increase')}/>
 							<span className="focus-line"></span>
 						</div>
 					</div>
 					<div id="textzone-container">
 						<div className="input-wrapper">
-							<textarea name="message" id="message" placeholder="Message" id="textzone" onBlur={(e)=>{toggle(e.currentTarget.parentNode.children[1],'decrease')}} onFocus={(e)=>{toggle(e.currentTarget.parentNode.children[1],'increase')}}></textarea>
+							<textarea name="message" placeholder="Message" id="textzone" onBlur={(e)=>{toggle(e.currentTarget.parentNode.children[1],'decrease')}} onFocus={(e)=>{toggle(e.currentTarget.parentNode.children[1],'increase')}}></textarea>
 							<span className="focus-line"></span>
 						</div>
 					</div>

@@ -1,4 +1,4 @@
-.intro-container{
+#intro-container{
 	height:100vh;
 	width: 100%;
 	color:#222;
@@ -89,24 +89,8 @@
 	background-color:rgba(255,255,255,0.9);
 	color: #5354ed; 
 }
-#bubble{
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	width:56px; 
-	height: 44px;
-	text-align: center;
-	padding-top: 12.5px;
-	color: #5354ed;
-	font-weight: bold;
-	font-size: 10px;
-	position: absolute;
-	bottom: 10px;
-	right: 10px;
-	cursor: pointer;
-}
 @media only screen and (min-width: 900px) {
-	.intro-container{
+	#intro-container{
 		display: grid;
 		grid-template-rows: 100%;
 		grid-template-columns: 10% 90%;
@@ -214,19 +198,4 @@
 		margin-top: 300px;
 		font-size: 18px;
 	}
-	#bubble{
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: cover;
-		width:90px; 
-		height: 70px;
-		text-align: center;
-		padding-top: 18px;
-		color: #5354ed;
-		font-weight: bold;
-		font-size: 18px;
-		position: absolute;
-		bottom: 15px;
-		right: calc(50% - 58px);
- }
 }

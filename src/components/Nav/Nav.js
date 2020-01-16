@@ -17,7 +17,7 @@ const Nav = (props) => {
 	return (
 		<div className="nav-container">
 			<div id="nav-logo-wrapper">
-				<img src={logoMobile} alt="logo" id="nav-logo"/>
+				<img src={logoMobile} alt="logo" id="nav-logo" onClick={(e)=>document.querySelector('#intro-container').scrollIntoView({behavior:'smooth'})}/>
 			</div>
 		 <div className="hamburger"	onClick={()=>showNav()} >
 		 	<span></span>
@@ -26,10 +26,10 @@ const Nav = (props) => {
 		 </div>
 		 <div className="nav-list-wrapper">
 			<ul className="nav-list-container">
-				<li className="nav-list-item"><a href="#"className="nav-link-item">ABOUT ME</a></li>
-				<li className="nav-list-item"><a href="#" className="nav-link-item">SKILLS</a></li>
-				<li className="nav-list-item"><a href="#" className="nav-link-item">PORTFOLIO</a></li>
-				<li className="nav-list-item"><a href="#" className="nav-link-item">CONTACT</a></li>
+				<li className="nav-list-item"><a href="#about-container"className="nav-link-item" onClick={(e)=>showNav()} >ABOUT ME</a></li>
+				<li className="nav-list-item"><a href="#skills-container" className="nav-link-item"  onClick={(e)=>showNav()}>SKILLS</a></li>
+				<li className="nav-list-item"><a href="#portfolio-container" className="nav-link-item"  onClick={(e)=>showNav()}>PORTFOLIO</a></li>
+				<li className="nav-list-item"><a href="#contact-container" className="nav-link-item"  onClick={(e)=>showNav()}>CONTACT</a></li>
 				<li className="nav-list-item"><a href="#" id="blog-link" className="nav-link-item">POSTS</a></li>
 			</ul>
 		</div>

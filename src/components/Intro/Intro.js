@@ -10,8 +10,8 @@ export default class Intro extends React.Component {
 		super(props);
 		this.state = {
 			text: [ 
-			 	"UI/UX DESIGNER",
 			 	"NETWORK ADMINISTRATOR",
+			 	"UI/UX DESIGNER",
 			 	"LOVE LEARNING NEW TECHS"
 			],
 			show: "",
@@ -64,7 +64,7 @@ export default class Intro extends React.Component {
 	}
 	render() {
 		return (
-			<div className="intro-container">
+			<div id="intro-container">
 				{this.props.children}
 				<div id="social-intro"><SocialMedia isFooter={false}/></div>	
 				<div id="intro-wrapper">
@@ -80,7 +80,6 @@ export default class Intro extends React.Component {
 						<a href={Resume} id="download-resume">Get Resume</a>
 					</div>
 				</div>
-				<div id="bubble" className=" animated bounce infinite" style={{backgroundImage:`url(${bubble}`}}>ME</div>
 			</div>
 		);
 	}
