@@ -13,7 +13,7 @@ const About = (props) => {
 				<img src={angle} alt="" className="angle" style={{top:"0",right:"0"}}/>
 				<p id="about-body-content">
 					Hi, It's Angelo, Software Developer and Network Administrator based in Cameroon,
-					Studies in IUT Douala and by July will be in possession of DUT in Network and Telecommunication.
+					Studies in IUT Douala and by July will be in possession of DUT in Network and Telecommunication 😋
 					<br/>
 					<br/>
 					Passionate software dev who loves learning new Techs and has an eye on Design, is dynamic, creative, open minded and strives at problem
